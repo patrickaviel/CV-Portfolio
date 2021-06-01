@@ -31,7 +31,7 @@ $(function() {
     function darkModeOff() {
         document.body.classList.remove("night-mode");
         for(let i=0;i<cards.length;i++){
-            cards[i].classList.add("night-mode-card");
+            cards[i].classList.remove("night-mode-card");
         }
     }
 });
